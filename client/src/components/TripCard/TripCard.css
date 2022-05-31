@@ -22,39 +22,43 @@
 
 .card-description-container{
     position: absolute;
-    bottom: 21px;
-    left: 29px;
+    bottom: -80px;
+    left: 0px;
     display: flex;
     flex-direction: column;
     color: #fff;
     width: 190px;
     overflow: hidden;
 }
-.card-description-container p {
+
+.card-location-text{
     margin: 0px;
     width: auto;
     text-align: left;
-}
-.card-location-text{
+
     font-weight: 700;
     letter-spacing: 1px;
     height: 20px;
     overflow: hidden;
+    margin-left: 6px;
+}
+
+.upper-location-logo{
+    display: flex;
 }
 
 
 .bimap-icon{
     position: relative;
-    top: -69px;
-    left: -111px;
-    width: 25px;
-    height: 25px;
+    top: 2px;
 }
 
 .card-description-text{
-    margin-top: 16px;
+    margin-top: 14px;
     height: 20px;
     overflow: hidden;
+    text-align: initial;
+    margin-left: 4px;
 }
 
 .edit-btn-card{

@@ -4,14 +4,30 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     column-gap: 50px;
-    row-gap: 32px;
-    max-width: 1200px;
+    row-gap: 98px;
+    max-width: 1167px;
+}
+
+@media screen and (max-width: 1190px) {
+    .card-container-wrapper{
+        margin: 4rem auto 0 auto;
+        justify-content: center;
+    }
+    
 }
 
 
 @media screen and (max-width: 550px) {
-    .card-container-wrapper div{
+    .card-container-wrapper{
+        row-gap: 99px;
+    }
+
+    .card-container-wrapper .card-container-wrapper{
         margin: auto;
+    }
+
+    .upper-location-logo{
+        margin: 0px;
     }
 }
 

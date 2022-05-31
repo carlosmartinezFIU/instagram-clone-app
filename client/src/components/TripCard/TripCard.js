@@ -55,8 +55,10 @@ const deleteCard = async (id, imagePath) =>{
             <img src={card.photo_img} alt={`${card.photo_location}`}/>
 
             <div className='card-description-container'>
-                <BiMap />
-                <p className='card-location-text'>{card.photo_location}</p>
+                <div className='upper-location-logo'>
+                  <BiMap className='bimap-icon'/>
+                  <p className='card-location-text'>{card.photo_location}</p>
+                </div>
                 <p className='card-description-text'>{card.photo_description}</p>
             </div>
         </div>
